@@ -52,6 +52,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
+    /// セル内のボタンをタップされた時
     @IBAction func tapButton(sender: AnyObject) {
         print("test")
         // 音源を再生
