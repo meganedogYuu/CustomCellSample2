@@ -20,6 +20,7 @@
 		974288E31CAB82DB007C6892 /* dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974288DF1CAB82DB007C6892 /* dog2.jpg */; };
 		974DFEBC1CABF98B006A1D3D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974DFEBB1CABF98B006A1D3D /* CustomTableViewCell.swift */; };
 		97A08FA01CAE5FCE007FF9C1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A08F9F1CAE5FCE007FF9C1 /* ViewController2.swift */; };
+		97E485F51D6343FB00F744CB /* magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97E485F41D6343FB00F744CB /* magic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		974288DF1CAB82DB007C6892 /* dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog2.jpg; sourceTree = "<group>"; };
 		974DFEBB1CABF98B006A1D3D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		97A08F9F1CAE5FCE007FF9C1 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		97E485F41D6343FB00F744CB /* magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = magic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				974288DD1CAB82DB007C6892 /* cat2.jpg */,
 				974288DE1CAB82DB007C6892 /* dog1.jpg */,
 				974288DF1CAB82DB007C6892 /* dog2.jpg */,
+				97E485F41D6343FB00F744CB /* magic.mp3 */,
 				97A08F9F1CAE5FCE007FF9C1 /* ViewController2.swift */,
 			);
 			path = CustomCellSample;
@@ -247,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E485F51D6343FB00F744CB /* magic.mp3 in Resources */,
 				974288E01CAB82DB007C6892 /* cat1.jpg in Resources */,
 				974288E11CAB82DB007C6892 /* cat2.jpg in Resources */,
 				974288E31CAB82DB007C6892 /* dog2.jpg in Resources */,

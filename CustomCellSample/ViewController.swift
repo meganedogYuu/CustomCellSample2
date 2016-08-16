@@ -1,4 +1,5 @@
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -15,10 +16,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "散歩中のポメラニアン",
         "お散歩中のワンちゃん"
     ]
+    
+    var audioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //サウンドデータの読み込み
+        let soundPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("magic", ofType: "mp3")!)
+        
+        // AudioPlayerのインスタンスを生成
+        audioPlayer = try! AVAudioPlayer(contentsOfURL: soundPath)
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,6 +54,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBAction func tapButton(sender: AnyObject) {
         print("test")
+        // 音源を再生
+        audioPlayer.play()
     }
     
 }
